@@ -1,0 +1,37 @@
+BallPit	750	400	5	2	2	8	24	5
+BigRock	250	0	3	1	1	5
+Buffet	600	1000	1	1	1	12	3
+LargeBush	50	0	4	1	1	5
+Carousel	800	500	5	2	2	6	20	8
+Dodgem	1200	700	10	2	2	4	10	10
+DropTower	1000	600	20	2	2	5	4	15
+DuckHunt	800	600	7	1	2	5	5	8
+FancyRoad	40	0	1	1	1	100
+FerisWheel	1200	1000	12	2	1	8	32	15
+Flowers	250	0	4	1	1	4
+FunnyStatue	1000	0	8	1	1	4
+GoCart	1500	700	15	3	1	6	12	15
+HauntedCastle	2000	1000	12	2	2	8	20	10
+KidsCoaster	500	400	5	2	1	4	6	5
+LargeBush	500	0	6	2	1	8
+NiceTree	500	0	5	1	2	5
+PirateShip	500	500	6	2	2	7	12	6
+Restaurant	1000	1200	4	2	2	35	50
+RollerCoaster	1000	500	10	3	2	6	16	10
+SimpleRoad	10	0	0	1	1	50
+SlidePark	1000	800	9	2	2	6	4	8
+SlowCoaster	750	600	4	2	2	4	8	10
+SmallBush	100	0	3	1	1	4
+SmolCoaster	600	350	3	2	1	4	6	8
+Toilet	200	500	0	1	1	6	5
+Trashcan	150	0	0	1	1	0	0
+
+// Forma segítség:
+
+// type  buildingPrice   upgradePrice    (level nem kell, mindnél 1)   funnes  (location nem kell, mindnél null)  size(1) size(2) [+EGYEDIDOLGOK]
+
+// +[EGYEDIDOLGOK]:
+// HA ENTERTAINER:  (condition nem kell (100))   durability  (underMaintenance nem kell, mind false)  slots   userPrice   (userSlots nem kell, mind 0)
+// HA ROAD:         dirtiness
+// HA UTILITY:      slots    userPrice   (userSlots nem kell, mindnél 0)
+// HA DECORATION:   range
